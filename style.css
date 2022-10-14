@@ -1,12 +1,14 @@
 .title {
     font-family: 'Petrona';
-}
-
-.solid {
-    border-top: 3px solid black;
+    color: #7192be;
 }
 
 header {
     margin-left: 70px;
     margin-top: 50px;
+    background-color:#fff2e6;
+}
+
+body {
+    background-color:#fff2e6;
 }
