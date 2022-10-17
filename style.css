@@ -1,26 +1,40 @@
-.title {
-    font-family:'Petrona';
-    color:#7192be;
-}
-
-#break {
-    width:100%;
-    color:#f0e8e1;
-    margin:0px;
-}
-
-.nav {
-    font-family:'Montserrat', sans-serrif;
-}
-
 header {
-    margin-left: 70px;
-    margin-top: 50px;
-    background-color:#fff2e6;
-    justify-content:space-between;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    animation-name: color-change;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 body {
-    background-color:#fff2e6;
-    
+    background-color: white;
+    animation-name: color-change;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color-change {
+    from {background-color: white;}
+    to{background-color: #fff2e6;}
+}
+
+.title {
+    margin-left: 70px;
+    margin-top: 50px;
+    font-family: Playfair Display;
+}
+
+.menu {
+    font-family: Raleway;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    margin-top: 65px;
+}
+
+.menu-item {
+    margin: 0 5px;
+    text-decoration:none
 }
