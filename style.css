@@ -4,14 +4,14 @@ header {
     flex-direction: row;
     justify-content: space-between;
     animation-name: color-change;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-fill-mode: forwards;
 }
 
 body {
     background-color: white;
     animation-name: color-change;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-fill-mode: forwards;
 }
 
@@ -24,6 +24,9 @@ body {
     margin-left: 70px;
     margin-top: 50px;
     font-family: Playfair Display;
+    animation-name: color-change;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
 }
 
 .menu {
@@ -32,6 +35,9 @@ body {
     flex-direction: row;
     margin-right: 50px;
     margin-top: 65px;
+    animation-name: color-change;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
 }
 
 .menu-item {
