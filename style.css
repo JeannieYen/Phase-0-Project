@@ -4,14 +4,14 @@ header {
     flex-direction: row;
     justify-content: space-between;
     animation-name: color-change;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
 body {
     background-color: white;
     animation-name: color-change;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -21,8 +21,8 @@ body {
 }
 
 @keyframes header-color-change {
-    from {background-color: white;}
-    to {background-color: #black;}
+    from {color: white;}
+    to {color: black;}
 }
 
 .title {
@@ -30,7 +30,7 @@ body {
     margin-top: 50px;
     font-family: Playfair Display;
     animation-name: header-color-change;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -40,12 +40,40 @@ body {
     flex-direction: row;
     margin-right: 50px;
     margin-top: 65px;
-    animation-name: header-color-change;
-    animation-duration: 7s;
-    animation-fill-mode: forwards;
 }
 
 .menu-item {
     margin: 0 5px;
-    text-decoration:none
+    text-decoration: none;
+    animation-name: header-color-change;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+img {
+    max-width: 100%;
+    padding-right: 20px
+}
+
+.fade-in-image {
+    animation: fadeIn 5s;
+    flex-basis: 40%
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.text {
+    font-family: Raleway;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 30px;
 }
