@@ -6,6 +6,7 @@ header {
     animation-name: color-change;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    box-shadow: 1px 1px 4px #fde5cf
 }
 
 body {
@@ -22,7 +23,7 @@ body {
 
 @keyframes header-color-change {
     from {color: white;}
-    to {color: black;}
+    to {color: #ff9633;}
 }
 
 .title {
@@ -43,7 +44,7 @@ body {
 }
 
 .menu-item {
-    margin: 0 5px;
+    margin: 0 20px;
     text-decoration: none;
     animation-name: header-color-change;
     animation-duration: 5s;
@@ -51,13 +52,14 @@ body {
 }
 
 img {
-    max-width: 100%;
-    padding-right: 20px
+    max-width: 300px;
+    min-width: 100px;
+    border-radius: 1%;
+    padding-right: 100px;
 }
 
 .fade-in-image {
     animation: fadeIn 5s;
-    flex-basis: 40%
 }
 
 @keyframes fadeIn {
@@ -69,11 +71,12 @@ img {
     font-family: Raleway;
     font-size: 20px;
     padding-left: 20px;
+    animation: fadeIn 5s;
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 30px;
+    margin: 100px 400px;
 }
