@@ -6,7 +6,7 @@ header {
     animation-name: color-change;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    box-shadow: 1px 1px 4px #fde5cf
+    box-shadow: 1px 1px 4px #fde5cf;
 }
 
 body {
@@ -16,12 +16,23 @@ body {
     animation-fill-mode: forwards;
 }
 
+footer {
+    color: #ff9633;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+    font-family: Raleway;
+    animation-name: orange-color-change;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
 @keyframes color-change {
     from {background-color: white;}
     to {background-color: #fff2e6;}
 }
 
-@keyframes header-color-change {
+@keyframes orange-color-change {
     from {color: white;}
     to {color: #ff9633;}
 }
@@ -30,7 +41,7 @@ body {
     margin-left: 70px;
     margin-top: 50px;
     font-family: Playfair Display;
-    animation-name: header-color-change;
+    animation-name: orange-color-change;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
@@ -46,7 +57,7 @@ body {
 .menu-item {
     margin: 0 20px;
     text-decoration: none;
-    animation-name: header-color-change;
+    animation-name: orange-color-change;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
