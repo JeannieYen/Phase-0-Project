@@ -91,3 +91,13 @@ img {
     justify-content: center;
     margin: 100px 400px;
 }
+
+#contact-title {
+    font-family: Playfair Display;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: orange-color-change;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
