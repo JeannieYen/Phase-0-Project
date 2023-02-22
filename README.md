@@ -2,18 +2,18 @@
 This is my first website project with Academy Xi. The project is a basic website with a single page that includes information about myself.
 
 ## Table of Contents
-Installation  
-Usage  
-Credits
+- Installation  
+- Usage  
+- Credits
 
 ### Installation
-- Clone the repository to your local machine using Git:  
+1. Clone the repository to your local machine using Git:  
 ```git clone https://github.com/jeannieyen/phase-0-project.git```
 
-- Navigate to the project directory:  
+2. Navigate to the project directory:  
 ```cd my-first-website```
 
-- Open the index.html file in your web browser:  
+3. Open the index.html file in your web browser:  
 ```open index.html```
 
 ### Usage
