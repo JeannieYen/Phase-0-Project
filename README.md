@@ -14,7 +14,7 @@ CSS
 Installation
 Clone the repository to your local machine using Git:
 
-git clone https://github.com/your-username/my-first-website.git
+git clone https://github.com/jeannieyen/phase-0-project.git
 
 Navigate to the project directory:
 
