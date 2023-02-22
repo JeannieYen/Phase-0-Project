@@ -1,5 +1,5 @@
 # My First Website - Academy Xi
-This is my first website project with Academy Xi. The project is a basic website with a single page that includes information about myself.
+This is my first website project with Academy Xi. The project is a basic website that includes information about myself.
 
 ## Table of Contents
 - Installation  
